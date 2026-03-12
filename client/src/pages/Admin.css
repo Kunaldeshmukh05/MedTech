@@ -1,0 +1,67 @@
+.admin-layout {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.admin-form {
+  position: sticky;
+  top: 90px;
+}
+
+.admin-form h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--primary-light);
+  color: var(--gray-900);
+}
+
+.admin-list h3 {
+  font-size: 1rem;
+  color: var(--gray-900);
+}
+
+.admin-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  margin-bottom: 10px;
+}
+
+.admin-item-icon {
+  font-size: 1.4rem;
+  width: 44px;
+  height: 44px;
+  background: var(--primary-pale);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.admin-item h4 { font-size: 0.9rem; font-weight: 700; color: var(--gray-900); margin-bottom: 3px; }
+.admin-item p { font-size: 0.8rem; color: var(--gray-500); }
+
+.stock-edit {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.stock-edit input {
+  padding: 6px 10px;
+  border: 1.5px solid var(--gray-300);
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+.stock-edit input:focus {
+  outline: none;
+  border-color: var(--primary);
+}

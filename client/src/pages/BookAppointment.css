@@ -1,0 +1,111 @@
+.book-layout {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.book-doctor-panel {
+  text-align: center;
+  position: sticky;
+  top: 90px;
+}
+
+.book-doctor-avatar {
+  width: 100px;
+  height: 100px;
+  background: var(--primary-pale);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  margin: 0 auto 16px;
+  border: 3px solid var(--primary-light);
+}
+
+.book-doctor-panel h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.book-doctor-details {
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.detail-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  color: var(--gray-600);
+  justify-content: center;
+}
+
+.book-slots-list {
+  margin-top: 16px;
+  border-top: 1px solid var(--gray-200);
+  padding-top: 16px;
+}
+
+.book-slots-list p {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--gray-500);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.slot-chip-lg {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  background: var(--primary-pale);
+  color: var(--gray-700);
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+  border: 1.5px solid transparent;
+}
+
+.slot-chip-lg:hover { border-color: var(--primary); }
+.slot-chip-lg.selected {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.booking-summary {
+  background: var(--primary-pale);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  margin: 20px 0;
+}
+
+.booking-summary h4 {
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--primary-dark);
+  margin-bottom: 12px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.88rem;
+  padding: 5px 0;
+  color: var(--gray-700);
+  border-bottom: 1px dashed var(--primary-light);
+}
+
+.summary-row:last-child { border: none; }
+.summary-row span:last-child { font-weight: 600; color: var(--gray-900); }
