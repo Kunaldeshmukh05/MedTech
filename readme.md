@@ -209,11 +209,3 @@ npm run dev
 ```js
 { userId, medicines: [{name, price, quantity}], address, phone, totalAmount, status }
 ```
-
----
-
-## 👨‍💻 Developed By
-
-Final Year MERN Stack Project — Online Medicine & Healthcare Booking System
-
----
